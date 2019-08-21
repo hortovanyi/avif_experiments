@@ -6,7 +6,7 @@ In this project, a [test jpg image](images/test1.jpg) is encoded into an avif fi
 
 It has two executable programs:
 1. avif_test_jpg_encode - takes the [test1.jpg](images/test1.jpg) image and outputs [test1.avif](images/test1.avif) and [test1.y4m](images/test1.y4m)
-2. avif_decode_test - uses [test1.avif](images/test.avif) and displays the images as well as writes it to [test1_avif_decode.jpg]
+2. avif_decode_test - uses [test1.avif](images/test.avif) and displays the images as well as writes it to [test1_avif_decode.jpg](images/test1_avif_decode.jpg).
 
 ## Dependencies
 The build has dependencies on [OpenCV](https://opencv.org), [libaom](https://aomedia.googlesource.com/aom/), [libavif](https://github.com/AOMediaCodec/libavif) and [dav1d](https://github.com/videolan/dav1d). As libavif had no install instructions, the libavif.a was copied to a project lib directory, with the avif/avif.h copied the include folder.
